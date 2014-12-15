@@ -2,7 +2,7 @@
 
 After Effects api compatible with [node.js](http://nodejs.org "Node.js").
 
-Affter Effects has now `setTimeout`, so all functions are synchronous.
+Affter Effects has no `setTimeout`, so all functions are synchronous.
 Main difference between `func` and `funcSync` is that `funcSync`
 throw exeption, when error occures.
 
