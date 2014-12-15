@@ -1,3 +1,9 @@
+2014.12.15, v0.1.2
+
+feature:
+- (fs) add tryCatch, tryFile
+
+
 2014.12.15, v0.1.1
 
 fix:
