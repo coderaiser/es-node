@@ -40,6 +40,33 @@ try {
 }
 ```
 
+#### fs.readFile(name, callback)
+
+Reads data from a file.
+
+```js
+fs.readFile('hello.html', function(error, data) {
+    if (error)
+        alert(error);
+    else
+        alert(data);
+});
+
+```
+
+#### fs.readFileSync(name)
+
+Synchronous version of `fs.readFile`.
+
+```js
+try {
+    var data = fs.readFileSync('hello.html');
+    alert(data);
+} catch(error) {
+    alert(error);
+}
+```
+
 ### Path
 Use `#include lib/path.js` to use this module. The following methods are provided:
 
