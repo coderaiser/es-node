@@ -12,6 +12,17 @@ added to `func` to improve responsiveness of `jsx` scripts.
 
 ## API
 
+### Require
+
+Use `#include lib/require.js` to use this module. The following method are provided:
+
+#### require
+Synchonous load and evaluate `.js` and `.jsx` files.
+
+```js
+var fs = require('lib/fs');
+```
+
 ### File System
 
 Use `#include lib/fs.js` to use this module. The following methods are provided:
