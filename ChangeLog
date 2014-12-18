@@ -1,3 +1,10 @@
+2014.12.18, v0.2.0
+
+feature:
+- (require) rm
+- (node) add module.exports
+
+
 2014.12.18, v0.1.6
 
 feature:
