@@ -14,10 +14,7 @@ added to `func` to improve responsiveness of `jsx` scripts.
 
 ### Require
 
-Use `#include lib/require.js` to use this module. The following method are provided:
-
-#### require
-Synchonous load and evaluate `.js` and `.jsx` files.
+Described modules could be loaded with [ae-require](https://github.com/coderaiser/ae-require "AE Reqiure") as well.
 
 ```js
 var fs = require('lib/fs');
