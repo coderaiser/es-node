@@ -1,6 +1,6 @@
 {
   "name": "ae node",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "After Effects api compatible with node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
