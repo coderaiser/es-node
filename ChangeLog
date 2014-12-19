@@ -1,3 +1,9 @@
+2014.12.19, v0.2.1
+
+fix:
+- (fs) readFileSync return undefined
+
+
 2014.12.18, v0.2.0
 
 feature:
