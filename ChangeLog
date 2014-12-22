@@ -1,3 +1,9 @@
+2014.12.22, v0.3.1
+
+fix:
+- (fs) mv encoding to tryFile
+
+
 2014.12.22, v0.3.0
 
 feature:
