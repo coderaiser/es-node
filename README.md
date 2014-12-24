@@ -24,6 +24,12 @@ var fs = require('lib/fs');
 
 Use `#include lib/fs.js` to use this module. The following methods are provided:
 
+#### fs.rename(oldPath, newPath, callback)#
+Asynchronous rename. No arguments other than a possible exception are given to the completion callback.
+
+#### fs.renameSync(oldPath, newPath)#
+Synchronous `fs.rename`.
+
 #### fs.writeFile(name, data, callback)
 
 Writes data to a file.
