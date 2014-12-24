@@ -14,7 +14,7 @@ added to `func` to improve responsiveness of `jsx` scripts.
 
 ### Require
 
-Described modules could be loaded with [ae-require](https://github.com/coderaiser/ae-require "AE Reqiure") as well.
+Described modules could be loaded with [es-require](https://github.com/coderaiser/es-require "ES Reqiure") as well.
 
 ```js
 var fs = require('lib/fs');
