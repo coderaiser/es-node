@@ -24,6 +24,12 @@ var fs = require('lib/fs');
 
 Use `#include lib/fs.js` to use this module. The following methods are provided:
 
+#### fs.mkdir(path, callback)#
+Asynchronous mkdir(2). No arguments other than a possible exception are given to the completion callback. mode defaults to 0777.
+
+#### fs.mkdirSync(path)#
+Synchronous `fs.mkdir`.
+
 #### fs.rename(oldPath, newPath, callback)#
 Asynchronous rename. No arguments other than a possible exception are given to the completion callback.
 
