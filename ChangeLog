@@ -1,3 +1,9 @@
+2014.12.24, v0.4.0
+
+feature:
+- (fs) add rename, renameSync
+
+
 2014.12.22, v0.3.1
 
 fix:
