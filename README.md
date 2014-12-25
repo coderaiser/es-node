@@ -90,6 +90,15 @@ try {
 ### Path
 Use `#include lib/path.js` to use this module. The following methods are provided:
 
+#### path.dirname(p)#
+Return the directory name of a path. Similar to the Unix dirname command.
+
+```js
+path.dirname('/foo/bar/baz/asdf/quux')
+// returns
+'/foo/bar/baz/asdf'
+```
+
 #### path.normalize(name)
 Normalize a string path, taking care of '..', '.' and '~' parts.
 
