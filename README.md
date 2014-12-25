@@ -1,13 +1,13 @@
-# Node API for Adobe Extended Script
+# Node API for Adobe ExtendScript
 
-Extended Script api compatible with [node.js](http://nodejs.org "Node.js").
+ExtendScript api compatible with [node.js](http://nodejs.org "Node.js").
 
-Extended Script has no `setTimeout`, so all functions are synchronous.
+ExtendScript has no `setTimeout`, so all functions are synchronous.
 Main difference between `func` and `funcSync` is that `funcSync`
 throw exeption, when error occures.
 
 Anyway if you decide to use `func` insteed of `funcSync` do not use at as
-synchronous, when `setTimeout` would be added to `Extended Script` it would be
+synchronous, when `setTimeout` would be added to `ExtendScript` it would be
 added to `func` to improve responsiveness of `jsx` scripts.
 
 ## API
