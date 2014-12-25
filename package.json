@@ -1,5 +1,5 @@
 {
-  "name": "ae node",
+  "name": "es node",
   "version": "0.5.0",
   "description": "After Effects api compatible with node.js",
   "scripts": {
