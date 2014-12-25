@@ -1,4 +1,4 @@
-# Adobe Extended Script Node
+# Node API for Adobe Extended Script
 
 Extended Script api compatible with [node.js](http://nodejs.org "Node.js").
 
@@ -7,7 +7,7 @@ Main difference between `func` and `funcSync` is that `funcSync`
 throw exeption, when error occures.
 
 Anyway if you decide to use `func` insteed of `funcSync` do not use at as
-synchronous, when `setTimeout` would be added to `After Effects` it would be
+synchronous, when `setTimeout` would be added to `Extended Script` it would be
 added to `func` to improve responsiveness of `jsx` scripts.
 
 ## API
