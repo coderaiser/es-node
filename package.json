@@ -2,6 +2,7 @@
   "name": "es node",
   "version": "0.5.1",
   "description": "After Effects api compatible with node.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
