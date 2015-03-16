@@ -99,6 +99,21 @@ path.dirname('/foo/bar/baz/asdf/quux')
 '/foo/bar/baz/asdf'
 ```
 
+#### path.basename(p[, ext])#
+Return the last portion of a path. Similar to the Unix basename command.
+
+Example:
+
+```js
+path.basename('/foo/bar/baz/asdf/quux.html')
+// returns
+'quux.html'
+
+path.basename('/foo/bar/baz/asdf/quux.html', '.html')
+// returns
+'quux'
+```
+
 #### path.normalize(name)
 Normalize a string path, taking care of '..', '.' and '~' parts.
 
